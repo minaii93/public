@@ -1,4 +1,4 @@
-import { termekLista } from "./termekLista.js"
+
 
 export default class KosarModell{
     #lista = []
@@ -11,8 +11,10 @@ export default class KosarModell{
     }
 
     kivalaszt(termek){
-        this.#lista.push(termek)
+        this.#lista.push(termek);
     }
 
+    
+    
     
 }

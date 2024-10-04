@@ -20,6 +20,8 @@ export default class KosarTermekek {
 
     termekKosarKiir(){
         this.szuloElem.append(
-            `<div class "kosar"></div>`)
+            `<div class "kosar">
+            
+            </div>`)
     }
 }
