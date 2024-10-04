@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-grow: 100px;
+    border-bottom: 1px solid grey;
+}
