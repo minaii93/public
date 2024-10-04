@@ -1,9 +1,8 @@
-import KosarElem from "./kosarElem";
+import KosarElem from "./kosarElem.js";
 
 export default class KosarTermekek {
     #lista = [];
     constructor(lista, szuloElem){
-        console.log(lista);
         this.#lista = lista;
         this.szuloElem = szuloElem;
         this.szuloElem.empty();
@@ -13,9 +12,9 @@ export default class KosarTermekek {
     }
 
     kosarKiir(){
-        this.#lista.forEach((elem, index) => {
-            elem.id = index;
+        this.#lista.forEach((elem) => {
             new KosarElem(elem, this.szuloElem )
+            
         })
     }
 

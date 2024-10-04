@@ -9,12 +9,12 @@ export default class Kartya{
 
 
     }
-    kattintasEsemeny(){
-        this.kosar.on('click', () => {
-            console.log(this.#adat);
-            const e = new CustomEvent('kosarbaHelyez',{etail: this.#adat})
-            window.dispatchEvent(e);
-        })
+     kattintasEsemeny(){
+         this.kosar.on('click', () => {
+             
+             const e = new CustomEvent('kosarbaHelyez',{detail: this.#adat})
+             window.dispatchEvent(e);
+         })
 
     }
 
