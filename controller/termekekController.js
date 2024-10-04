@@ -8,4 +8,11 @@ export default class TermekekController{
         this.termekView = new Termekek(lista, $(".termekek"))
         this.kosarbaTesz();
     }
+
+    kosarbaTesz(){
+        $(window).on("kosarbaHelyez", (event) => {
+            console.log(event.detail);
+            
+        })
+    }
 }
