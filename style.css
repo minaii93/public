@@ -7,3 +7,54 @@ nav{
     flex-grow: 100px;
     border-bottom: 1px solid grey;
 }
+
+.termekek{
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    
+
+    
+}
+
+.termek{
+    flex: 1 1 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    max-width: 250px;
+    height: 300px;
+    align-items: center;
+    
+}
+
+.termek img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 230px;
+    align-items: center;
+}
+
+
+
+.ar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: baseline;
+}
+
+.kosarJel{
+    padding: 10px;
+    color: aliceblue;
+    background-color: saddlebrown;
+    border: 1px solid aliceblue;
+    border-radius: 3px;
+}
